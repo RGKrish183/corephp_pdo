@@ -1,7 +1,7 @@
 <?php
 
-	// $con = new MongoClient();
-	$con = new MongoDB\Driver\Manager("mongodb://localhost:27017");
+	$con = new MongoClient();
+	// $con = new MongoDB\Driver\Manager("mongodb://localhost:27017");
 
 	$db = $con->quickbook;
 	
