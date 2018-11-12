@@ -1,0 +1,35 @@
+<!--
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+-->
+<script src="assets/js/jquery.min.js"></script>
+
+<script src="http://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" ></script>
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css" type="text/css" media="all" />
+
+	<div class="col-md-12" >
+		<table id="tbl_users" class="table">
+			<thead>
+				<tr>
+					<th>Name</th>
+					<th>User Name</th>
+					<th>User Photo</th>
+					<th>Created Date</th>
+					<th>Action</th>
+				</tr>
+			<thead>
+			<tbody>
+				<tr>
+					<td>Name</td>
+					<td>Name</td>
+					<td>Name</td>
+					<td>Name</td>
+					<td>Name</td>
+				</tr>
+			<tbody>
+		</table>
+	</div>
+	<script>
+		$(document).ready( function () {
+			$('#tbl_users').DataTable();
+		});	
+	</script>
